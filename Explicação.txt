@@ -1,0 +1,19 @@
+Explicação do processo de criação de um repositório no git Hub:
+
+Na aba "top repositories" Cliquei em "new" para criar um novo repositório.
+Depois de cria-lo, fiz as alterações dos arquivos no Vs Code e "likei" com o 
+repositório do Git Hub da seguinte forma:
+
+No terminal, digitei os camandos:
+
+$ git init: para iniciar um repositório 
+$ git add .: para adicionar os arquivos na aba de staged
+$ git commit -m"<Meu primeiro commit": para salvar, fazendo o primeiro commit
+$ git remote add origin <link do repositório git>: para linkar com o repositório
+que foi criado no git Hub
+
+$ git push: da erro, pois quando vou fazer o primeiro push de um repositório
+feito no Git Hub, preciso usar o comando:
+    $ git push --set-upstream origin master
+
+Assim, consegui fazer um repositório no Git Hub.
